@@ -1,0 +1,195 @@
+  .homename {
+    background-color:rgb(29, 27, 29);
+    border-bottom: 1px solid;
+    border-bottom:dotted;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-left: 0;
+    font-size: 14px;
+    padding-bottom: 1px;
+  }
+
+  .homename p {
+  margin: 0;
+}
+
+  .homename i {
+    float: left;
+    }
+
+  .aboutmain {
+    background-color:rgb(29, 27, 29);
+    border-bottom: 1px solid;
+    border-bottom:dotted;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding: 10px;
+    padding-left: 0;
+    font-size: 14px;
+    padding-bottom: 1px;
+  }
+
+  .aboutmain p {
+    margin: 0;
+    margin-left: 10px; 
+  }
+  
+  .aboutmain i {
+    float: left;
+    }
+
+  .home2 {
+    float: left;
+    background-color:rgb(21, 19, 24);
+    width: 100%;
+    color: white;
+    padding-bottom: 20px;
+  }
+
+  .homerow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .bread {
+    padding-top: 50px;
+    padding-left: 100px;
+    font-family: Roboto,sans-serif;
+  }
+
+  .bread h2 {
+    font-size: 30px;
+  }
+
+  .bread h4 {
+    padding-left: 5%;
+    color: rgb(214, 214, 214);
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    }
+  
+  .bread p {
+  padding-left: 10%;
+  color: rgb(196, 196, 196);
+  margin-top: 0;
+  }
+
+  .bg {
+  box-shadow: inset 0px 0px 30px rgb(0, 0, 0); 
+  background-image: url("/images/satisfactory.png");
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+  ::selection {
+    background-color:#faac47;
+    color:black;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+  .caption {
+    position: relative;
+    left: 0;
+    top: 35%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+  display:inline-flex;
+  background-color: rgba(17, 17, 17, 0.705);
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 8px;
+}
+
+.mandelbrot {
+  float: left;
+  text-align: center;
+  height: 300px;
+  width: 34%;
+  padding-bottom: 400px;
+  overflow: hidden;
+}
+
+.mandelbrot img {
+  width: 79%;
+  border: 1px solid rgb(78, 78, 78);
+  margin-top: 30px;
+  padding: 0;
+  overflow:hidden
+}
+
+.mandelbrot span.border {
+  display:inline-flex;
+  background-color: rgba(17, 17, 17, 0.705);
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 6px;
+  color: #faac47;
+}
+
+.mandelbrot span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.minecraft {
+  float: left;
+  text-align: center;
+  height: 300px;
+  width: 32%;
+  padding-bottom: 400px;
+  overflow: hidden;
+}
+
+.minecraft img {
+  width: 79%;
+  border: 1px solid rgb(78, 78, 78);
+  margin-top: 30px;
+  padding: 0;
+  overflow:hidden
+}
+
+.minecraft span.border {
+  display:inline-flex;
+  background-color: rgba(17, 17, 17, 0.705);
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 6px;
+  color: #faac47;
+}
+
+.minecraft span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.projectshead {
+  text-align:center;
+  padding: 60px;
+  text-decoration: underline;
+  padding-top: 120px;
+}
+
+@import url('https://css.gg/mail.css');
+
+
+

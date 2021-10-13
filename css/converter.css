@@ -1,0 +1,56 @@
+  .convertertext {
+
+    text-align: center;
+  }
+
+  .converters ::selection {
+    background-color:#faac47;
+    color:black;
+  }
+
+  .project1 {
+    padding: 20px;
+    height: 100%;
+
+  }
+
+  .converters {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px; 
+    text-align: center;
+    font-size: 20px;
+    height: 170px;
+    background:#d9d9d9;
+    margin-top: 60px;
+    line-height: 30px;
+    padding: 10px;
+    padding-bottom: 300px;
+    }
+  
+  .box {
+  background-color:rgb(164, 164, 164);
+  float: left;
+  padding: 50px;
+  padding-bottom: 20px;
+  margin: 30px;
+  margin-top: 50px;
+  border-radius: 2px;
+  border: 1px solid;
+  font-size: 38px;
+  }
+
+  .boxinput {
+    width: 198px;
+    height: 28px;
+    margin-top: 30px;
+    outline: none;
+    box-shadow: inset 2px 2px 3px rgb(168, 168, 168); 
+    border: 2px solid rgb(128, 128, 128);
+    font-size: 17px;
+  }
+  
+  .boxinput:focus {
+    border: 2px solid #555;
+  }

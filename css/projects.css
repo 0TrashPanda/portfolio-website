@@ -1,0 +1,54 @@
+.projects p {
+    font-size: 18px;
+    margin: 0px;
+    color: rgb(44, 44, 44)
+  }
+
+  .projects h2 {
+    font-size: 24px;
+    margin: 0px;
+  }
+
+  .projects {
+    font-family: Roboto,sans-serif;
+    background:#d9d9d9;
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    right: 20%;
+    height: auto;
+    margin-top: -70px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  
+  .inerprojects {
+    text-align: center;
+    background-color:rgb(164, 164, 164);
+    border: 1px solid;
+    margin: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size:20px;
+  }
+
+  .projectlink a {
+    color:rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center !important ;
+    background-color:#faac47;
+    border: 1px solid;
+    border-radius: 1px;
+  }
+  
+  .projectlink {
+    margin: 25px;
+    font-family: Roboto,sans-serif;
+  }
+
+  ::selection {
+    background-color:#faac47;
+    color:black;
+  }
