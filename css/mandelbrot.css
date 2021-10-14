@@ -1,0 +1,47 @@
+  .mandelbrottext {
+    text-align: center;
+  }
+
+  .mandelbrottext h2 {
+  color: rgb(49, 49, 49);
+  }
+
+
+  .mandelbrottext h3 {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  
+  .mandelbrottext h4 {
+    text-align: left;
+    padding-left: 40px;
+  }
+  
+  .mandelbrottext p {
+    text-align: left;
+    padding-left: 60px;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+  }
+  
+  .project2 {
+    padding: 20px;
+    height: 100%;
+  }
+
+  .mandelbrot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px; 
+    text-align: center;
+    font-size: 20px;
+    height: 170px;
+    background:#d9d9d9;
+    margin-top: 60px;
+    line-height: 30px;
+    padding: 10px;
+    padding-bottom: 300px;
+    }
