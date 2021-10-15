@@ -12,14 +12,13 @@
   .projects {
     font-family: Roboto,sans-serif;
     background:#d9d9d9;
-    position: absolute;
-    top: 17%;
-    left: 20%;
-    right: 20%;
     height: auto;
-    margin-top: -70px;
     padding: 20px;
     font-size: 30px;
+    margin: 50px;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
   .inerprojects {
