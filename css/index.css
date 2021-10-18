@@ -61,6 +61,7 @@
     padding-top: 50px;
     padding-left: 100px;
     font-family: Roboto,sans-serif;
+    margin-bottom: 200px;
   }
 
   .bread h2 {
@@ -116,85 +117,5 @@
   letter-spacing: 8px;
 }
 
-.mandelbrot {
-  float: left;
-  text-align: center;
-  height: 300px;
-  width: 34%;
-  padding-bottom: 400px;
-  overflow: hidden;
-}
-
-.mandelbrot img {
-  width: 79%;
-  border: 1px solid rgb(78, 78, 78);
-  margin-top: 30px;
-  padding: 0;
-  overflow:hidden
-}
-
-.mandelbrot span.border {
-  display:inline-flex;
-  background-color: rgba(17, 17, 17, 0.705);
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 6px;
-  color: #faac47;
-}
-
-.mandelbrot span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-
-.minecraft {
-  float: left;
-  text-align: center;
-  height: 300px;
-  width: 32%;
-  padding-bottom: 400px;
-  overflow: hidden;
-}
-
-.minecraft img {
-  width: 79%;
-  border: 1px solid rgb(78, 78, 78);
-  margin-top: 30px;
-  padding: 0;
-  overflow:hidden
-}
-
-.minecraft span.border {
-  display:inline-flex;
-  background-color: rgba(17, 17, 17, 0.705);
-  color: #fff;
-  padding: 18px;
-  font-size: 25px;
-  letter-spacing: 6px;
-  color: #faac47;
-}
-
-.minecraft span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
-}
-
-.projectshead {
-  text-align:center;
-  padding: 60px;
-  text-decoration: underline;
-  padding-top: 120px;
-}
 
 @import url('https://css.gg/mail.css');
-
-
-
-.bread img:hover {
-  scale: 1.1 ;
-}
-
-.homeprojects
