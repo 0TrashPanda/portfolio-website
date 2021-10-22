@@ -1,82 +1,67 @@
-
-
   ::selection {
     background-color:#faac47;
     color:black;
   }
 
-  .homeprojects img:hover {
-    scale: 1.1 ;
+  .basic-grid {
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: repeat(auto-fill, minmax(400px, 6fr));
+ }
+
+ @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(17, 17, 17);
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    transition: all 500ms;
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  
+ .card:hover {
+    box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+    transform: translateY(-3px) scale(1.1);
+ }
+
+  .basic-grid {
+  margin: 50px;
   }
 
-  .mandelbrot {
-    float: left;
-    text-align: center;
-    height: 300px;
-    width: 34%;
-    padding-bottom: 400px;
-    overflow: hidden;
+  .homeprojects::after {
+    content: "";
+    clear: both;
+    display: table;
   }
-  
-  .mandelbrot img {
-    width: 79%;
-    border: 1px solid rgb(78, 78, 78);
-    margin-top: 30px;
-    padding: 0;
-    overflow:hidden
+
+  .card img {
+    height: 250px;
   }
-  
-  .mandelbrot span.border {
-    display:inline-flex;
-    background-color: rgba(17, 17, 17, 0.705);
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 6px;
-    color: #faac47;
-  }
-  
-  .mandelbrot span {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
-  }
-  
-  .minecraft {
-    float: left;
-    text-align: center;
-    height: 300px;
-    width: 32%;
-    padding-bottom: 400px;
-    overflow: hidden;
-  }
-  
-  .minecraft img {
-    width: 79%;
-    border: 1px solid rgb(78, 78, 78);
-    margin-top: 30px;
-    padding: 0;
-    overflow:hidden
-  }
-  
-  .minecraft span.border {
-    display:inline-flex;
-    background-color: rgba(17, 17, 17, 0.705);
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 6px;
-    color: #faac47;
-  }
-  
-  .minecraft span {
-    display: inline-block;
-    vertical-align: middle;
-  }
-  
+
   .projectshead {
-    text-align:center;
-    padding: 60px;
+    text-align: center;
+    color: white;
     text-decoration: underline;
-    padding-top: 120px;
+  }
+
+  .card span.border {
+    display:inline-flex;
+    background-color: rgba(17, 17, 17, 0.705);
+    color: #faac47;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 8px;
   }
